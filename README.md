@@ -1,63 +1,62 @@
-# Jornada Dev — Black Neon 💚
+<div align="center">
 
-Landing page responsiva do **Jornada Dev**, com identidade visual preta e verde-neon, fotografias do projeto e microinterações suaves.
+<img src="assets/preview/banner.svg" alt="Jornada Dev — identidade visual preta e verde neon" width="100%" />
 
-**Prévia interativa:** após publicar, abra a URL fornecida pelo Netlify.
+# Jornada Dev
 
-> A captura de tela ainda não foi gerada: o ambiente de renderização bloqueou a abertura da página local. Quando tiver uma captura real, salve-a como `assets/preview.png` e substitua este trecho por `![Prévia do Jornada Dev](assets/preview.png)`.
+**Landing page responsiva • Identidade Black Neon • Microinterações**
 
-## Funcionalidades
+[![Visitar site](https://img.shields.io/badge/VER_SITE_AO_VIVO-B7FF37?style=for-the-badge&logo=netlify&logoColor=000000)](https://jornadadev.netlify.app/)
+![HTML5](https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript)
+![Netlify](https://img.shields.io/badge/Netlify-111111?style=flat-square&logo=netlify)
 
-- Layout responsivo para celular, tablet e desktop.
-- Animações de entrada ao rolar a página e efeitos sutis nos cartões.
-- Navegação entre seções, com rolagem suave.
-- Suporte à preferência de movimento reduzido (`prefers-reduced-motion`).
-- Imagens locais, sem dependência de hospedagem externa.
+[**🌐 Abrir o Jornada Dev**](https://jornadadev.netlify.app/)
 
-## Tecnologias
+</div>
 
-HTML5, CSS3 e JavaScript puro. **Não é necessário React, npm ou build.**
+## Sobre o projeto
+
+Redesign de uma landing page de mentoria em programação, com visual preto e verde-neon, fotografias do projeto original, tipografia marcante e movimentos sutis.
+
+## Prévia visual
+
+> A arte de capa acima representa a identidade visual. Para ver a interface real, clique em **Abrir o Jornada Dev**. A imagem abaixo é um recurso fotográfico original utilizado no site, não uma captura de tela.
+
+<div align="center">
+<img src="assets/images/foto-01.png" alt="Fotografia utilizada no site Jornada Dev" width="65%" />
+</div>
+
+## Destaques
+
+- Design responsivo para desktop, tablet e celular
+- Animações de entrada e interações ao passar o mouse
+- Navegação entre seções e rolagem suave
+- Preferência de movimento reduzido respeitada
+- HTML, CSS e JavaScript sem dependência de framework
 
 ## Executar localmente
 
-Abra `index.html` no navegador. Para uma prévia com servidor local:
+Abra `index.html` no navegador, ou rode `python -m http.server 8000` e acesse `http://localhost:8000`.
 
-```bash
-python -m http.server 8000
-```
+## Publicação
 
-Acesse `http://localhost:8000`.
-
-## Publicar no Netlify
-
-**Netlify Drop:** envie o ZIP de publicação ou a pasta com o `index.html` na raiz.
-
-**GitHub + Netlify:** envie os arquivos deste repositório ao GitHub; no Netlify escolha **Add new project → Import an existing project → GitHub**, selecione o repositório e publique com:
-
-- Build command: **deixar vazio**
-- Publish directory: **`.`** (raiz)
-
-O arquivo `netlify.toml` já configura a pasta de publicação. Após conectar, novos commits na branch de produção poderão gerar deploys automaticamente.
+O arquivo `netlify.toml` configura a publicação da raiz do repositório. No Netlify, importe o repositório do GitHub, deixe o comando de build vazio e use `.` como diretório de publicação.
 
 ## Estrutura
 
 ```text
 index.html
+netlify.toml
 assets/
   css/style.css
   js/main.js
   images/
-  (preview.png, quando adicionada)
-netlify.toml
+  preview/banner.svg
 README.md
 ```
 
-## Personalização
+---
 
-As cores principais estão no começo de `assets/css/style.css`. Substitua fotos em `assets/images/` e atualize os caminhos no HTML quando necessário.
-
-> **Atenção:** o link de Instagram é genérico (`instagram.com`) e precisa ser substituído pelo perfil oficial. Os botões internos navegam entre seções; não há checkout ou formulário conectado. Este projeto é uma landing page estática, não o backend do WordPress original.
-
-## Créditos
-
-Redesign construído a partir dos arquivos disponibilizados do Jornada Dev. Imagens mantidas a partir dos recursos fornecidos, sem promessa de aumento da resolução original.
+<div align="center"><sub>Jornada Dev • Projeto de portfólio</sub></div>
