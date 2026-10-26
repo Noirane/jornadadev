@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/preview/banner.png" alt="Jornada Dev — identidade visual preta e verde neon" width="100%" />
+<img src="banner.png" alt="Jornada Dev — identidade visual preta e verde neon" width="100%" />
 
 # Jornada Dev
 
