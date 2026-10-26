@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/preview/banner.svg" alt="Jornada Dev — identidade visual preta e verde neon" width="100%" />
+<img src="assets/preview/banner.png" alt="Jornada Dev — identidade visual preta e verde neon" width="100%" />
 
 # Jornada Dev
 
@@ -22,7 +22,7 @@ Redesign de uma landing page de mentoria em programação, com visual preto e ve
 
 ## Prévia visual
 
-> A arte de capa acima representa a identidade visual. Para ver a interface real, clique em **Abrir o Jornada Dev**. A imagem abaixo é um recurso fotográfico original utilizado no site, não uma captura de tela.
+> A capa acima apresenta a identidade visual do projeto. Para ver a interface real, clique em **Abrir o Jornada Dev**. A imagem abaixo é um recurso fotográfico original utilizado no site, não uma captura de tela.
 
 <div align="center">
 <img src="assets/images/foto-01.png" alt="Fotografia utilizada no site Jornada Dev" width="65%" />
@@ -53,7 +53,7 @@ assets/
   css/style.css
   js/main.js
   images/
-  preview/banner.svg
+  preview/banner.png
 README.md
 ```
 
